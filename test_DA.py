@@ -27,7 +27,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--max-epoch', type=int, default=6)
     parser.add_argument('--save-epoch', type=int, default=5)
-    parser.add_argument('--repeat-number', type=int, default=5)
+    parser.add_argument('--repeat-number', type=int, default=10)
     parser.add_argument('--shot', type=int, default=5)
     parser.add_argument('--query', type=int, default=15)
     parser.add_argument('--train-way', type=int, default=20)
