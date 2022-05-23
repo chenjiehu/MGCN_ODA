@@ -18,7 +18,7 @@ from backbone import Conv4
 from convert import Convnet
 from coral import compute_aifa_W
 from utils import Auxiliary_data, Task_data
-from utils import step1_save_path, step2_save_path, DA_save_path, ensure_path
+from utils import step1_save_path, step2_save_path, DA_save_path, ensure_path,ensure_path
 
 
 if __name__ == '__main__':
