@@ -2,8 +2,6 @@
 import os.path as osp
 import os
 import argparse
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
-
 import torch
 import torch.nn.functional as F
 import xlsxwriter
@@ -37,7 +35,7 @@ if __name__ == '__main__':
     parser.add_argument('--gpu', default='1')
     parser.add_argument('--same-class-num', default=9)
     args = parser.parse_args()
-    # set_gpu(args.gpu)
+    set_gpu(args.gpu)
     pprint(vars(args))
     torch.manual_seed(3)
 
