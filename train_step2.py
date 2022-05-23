@@ -2,8 +2,6 @@ import argparse
 import os.path as osp
 import time
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
-
 import torch
 import torch.nn.functional as F
 import xlsxwriter
