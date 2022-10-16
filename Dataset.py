@@ -31,6 +31,8 @@ class SOURCE_DATA(Dataset):
 
         self.transform = transforms.Compose([
             transforms.Resize(self.resize),
+            transforms.RandomHorizontalFlip(),
+            transforms.RandomVerticalFlip(),
             transforms.CenterCrop(self.resize),
             transforms.ToTensor(),
             transforms.Normalize(mean=[0.485, 0.456, 0.406],
