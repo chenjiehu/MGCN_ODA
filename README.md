@@ -26,5 +26,20 @@ A re-implementation of MGCN
 You can test the classification accuracy in different situations by modifying the relevant parameters
 train-way,test-way,shot
 
+**The data folder should be structured as follows:**
+
+```
+├── Data/
+│   ├── Auxiliary data/     
+|   |   ├── category1/
+|   |   ├── category2/
+│   ├── Task data/
+|   |   ├── category1/
+|   |   ├── category2/
+│   ├── Val data/
+|   |   ├── category1/
+|   |   ├── category2/
+```
+
 
 
