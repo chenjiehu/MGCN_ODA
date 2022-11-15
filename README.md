@@ -26,20 +26,27 @@ A re-implementation of MGCN
 You can test the classification accuracy in different situations by modifying the relevant parameters
 train-way,test-way,shot
 
-**The data folder should be structured as follows:**
+**The data folder should be structured as follows:** (when ths number of common categories is 6)
 
 ```
 ├── Data/
-│   ├── Auxiliary data/     
-|   |   ├── category1/
-|   |   ├── category2/
+│   ├── Auxiliary data/
+|   |   ├── 1_common category1/
+|   |   ├── 2_common category2/
+|   |   ├── ....
+|   |   ├── 7_private category1/
+|   |   ├── 7_private category2/
+|   |   ├── ....
 │   ├── Task data/
-|   |   ├── category1/
-|   |   ├── category2/
+|   |   ├── 1_common category1/
+|   |   ├── 2_common category2/
+|   |   ├── ....
+|   |   ├── 7_private category1/
+|   |   ├── 8_private category2/
+|   |   ├── ....
 │   ├── Val data/
 |   |   ├── category1/
 |   |   ├── category2/
 ```
-
-
+Please note that the common category folders should be arranged at the front of the private category folders to ensure that the label number of the common category is less than the label number of the private category. And the common category labels of the auxiliary dataset and the task dataset should correspond one by one.
 
