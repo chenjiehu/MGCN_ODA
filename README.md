@@ -1,9 +1,10 @@
-A re-implementation of MGCN
+## A re-implementation of MGCN
 
 ## Environment
 
 * python 3.9.7
 * pytorch 1.10.1
+* pycharm
 
 ## Instructions
 
