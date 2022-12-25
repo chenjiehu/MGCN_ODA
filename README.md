@@ -50,3 +50,6 @@ train-way,test-way,shot
 ```
 Please note that the common category folders should be arranged at the front of the private category folders to ensure that the label number of the common category is less than the label number of the private category. And the common category labels of the auxiliary dataset and the task dataset should correspond one by one.
 
+## Contact
+
+chenji_snnu@foxmail.com
