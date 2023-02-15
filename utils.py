@@ -11,16 +11,16 @@ import torch.nn.functional as F
 filename_shot = './Data/shot_OR'   # shot folder name
 filename_query = './Data/query_OR'  # query folder name
 shot = 5
-save_path_step1 = './save/OR_step1/5shot'
-save_path_step2 = './save/OR_step2/5shot'
-save_path_DA = './save/OR_step_DA/5shot'
+save_path_step1 = './save/OR_step1/5shot'  # save path setp1
+save_path_step2 = './save/OR_step2/5shot'   # save path step2
+save_path_DA = './save/OR_step_DA/5shot'   #save path DA
 
 Auxiliary_data = './Data/OR_12wayOPT'
 Val_data = './Data/OR_19wayOPT_val'
 Task_data = './Data/OR_12wayRSI'
 
-NUM_shot = 10
-Common_class_number = 6
+NUM_shot = 20
+Common_class_number = 6  # the number of common class 
 # train
 
 def set_gpu(x):
