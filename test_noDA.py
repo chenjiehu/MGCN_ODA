@@ -114,10 +114,10 @@ if __name__ == '__main__':
                 vv.add(pred_class)
                 label_rem.append(label)
                 pred_label_rem.append(target_pred_label)
-                coral_temp = compute_aifa_for_every_class(target_query_feature, label[p:].cpu(),label[p:].cpu())
-                coral_for_every_class.add(coral_temp.cpu())
-                coral_temp = compute_aifa_for_every_class(target_feature_CNN, label[p:].cpu(),label[p:].cpu())
-                coral_for_every_class_CNN.add(coral_temp.cpu())
+                #coral_temp = compute_aifa_for_every_class(target_query_feature, label[p:].cpu(),label[p:].cpu())
+                #coral_for_every_class.add(coral_temp.cpu())
+                #coral_temp = compute_aifa_for_every_class(target_feature_CNN, label[p:].cpu(),label[p:].cpu())
+                #coral_for_every_class_CNN.add(coral_temp.cpu())
 
 
                 proto = None;
