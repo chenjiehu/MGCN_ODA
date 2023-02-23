@@ -7,7 +7,7 @@ import os
 from utils import shot, Task_data, filename_shot, filename_query, ensure_path
 from Dataset.Dataset import SOURCE_DATA
 #
-def Split_shot_query(filename,file_shot,file_query,shot, num_split = 10):
+def Split_shot_query(filename,file_shot,file_query,shot, num_split = 20):
 
     filename = filename
     for loop in range(0,num_split):
